@@ -315,5 +315,23 @@ y esté configurada la variable de entorno:
 ```text
 MP\_API\_KEY
 ```
+## 6. Dashboard interactivo
+
+Como complemento al pipeline de análisis y predicción, se ha desarrollado un dashboard interactivo con Streamlit para facilitar la exploración de los resultados obtenidos durante el screening final de materiales.
+La aplicación se encuentra en:
+```text
+dashboard/app.py
+```
+El dashboard utiliza los archivos generados por el pipeline:
+```text
+resultados_screening/screening_predicciones.csv
+resultados_screening/candidatos_finales.csv
+```
+Para ejecutar la aplicación localmente, instalar primero las dependencias necesarias: pip install streamlit pandas plotly
+
+Después, desde la raíz del repositorio: streamlit run dashboard/app.py
+
+La aplicación se abrirá en el navegador y permitirá explorar los resultados del screening de forma interactiva.
+
 
 
