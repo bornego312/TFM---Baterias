@@ -12,3 +12,5 @@ torch
 torch-geometric
 jupyter
 ipywidgets
+streamlit
+plotly
