@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+pymatgen
+matminer
+mp-api
+typing-extensions
+torch
+torch-geometric
+jupyter
+ipywidgets
