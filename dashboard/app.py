@@ -65,7 +65,8 @@ CANDIDATOS_PATH = (
 def cargar_datos():
 
     screening = pd.read_csv(
-        SCREENING_PATH
+        SCREENING_PATH,
+        sep="\t"
     )
 
     candidatos = pd.read_csv(
